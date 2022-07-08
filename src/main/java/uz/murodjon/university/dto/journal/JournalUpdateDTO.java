@@ -1,0 +1,16 @@
+package uz.murodjon.university.dto.journal;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import uz.murodjon.university.dto.GenericDTO;
+
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class JournalUpdateDTO extends GenericDTO {
+    private String name;
+}
